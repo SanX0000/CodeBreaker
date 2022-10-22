@@ -1,0 +1,19 @@
+body {
+	background: #CCCCCC;
+    }
+
+h1  {
+	text-align: center;	font-size: 35px; color: yellow;
+	}
+
+p 	{
+	text-align: center;	
+  	}
+
+#frase {
+	font-size: 25px
+}
+
+em strong {
+	color: midnightblue;
+		}
