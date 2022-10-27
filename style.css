@@ -1,38 +1,44 @@
 .fullscreen-bg__video {
-		position: fixed; 
-		top: 0;
-		left: 0;
-		min-width: 100%; 
-		min-height: 100%;
-		z-index: -1;
-}
-.matrix {
-	position: fixed; 
+	position: fixed;
 	top: 0;
 	left: 0;
-	min-width: 100%; 
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+.matrix {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
 	min-height: 100%;
 	z-index: -1
-
 }
 
 
 
-h1  {
-	text-align: center;	font-size: 70px ; color:white;
-	}
+h1 {
+	text-align: center;
+	font-size: 70px;
+	color: white;
+}
 
-h2  {
-		text-align: left;	font-size: 30px; color: white; font-size:x-large ; color: red;
-	}
+h2 {
+	text-align: left;
+	font-size: 30px;
+	color: white;
+	font-size: x-large;
+	color: red;
+}
 
 
 
-p 	{
-	color: white; font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif
-	text-indent: 3ch;
-  	}
+p {
+	color: white;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif text-indent: 3ch;
+}
 
 #frase {
 	font-size: 25px
@@ -40,76 +46,80 @@ p 	{
 
 em strong {
 	color: midnightblue;
-		}
+}
 
-.itens{
-font-style: italic; font-size: x-large;
+.itens {
+	font-style: italic;
+	font-size: x-large;
 
 }
 
 .texto {
-background:black;
-		}
+	background: black;
+}
 
 .texto2 {
-background:black;
-		}
+	background: black;
+}
 
 .texto3 {
 	display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-		}
+	flex-wrap: wrap;
+	width: 100%;
+	display: inline-block;
+}
 
 .box {
-box-sizing: border-box;
-padding: 1rem;
-margin: 1rem;
-background-color:dimgray;
-width: calc((40%) - 2rem);
-		}
-
-.texto3.2 {
-display: flex;
-flex-wrap: wrap;
-width: 100%;
-justify-content:picture-in-picture
-		}
+	box-sizing: border-box;
+	padding: 1rem;
+	margin: 1rem;
+	background-color: dimgray;
+	width: calc((40%) - 2rem);
+	float: left
+}
 
 .box2 {
-box-sizing: border-box;
-padding: 1rem;
-margin:  1rem;
-background-color:rgb(194, 33, 33);
-width: calc((60%) - 8rem);
-	}
-
-.teste {
-	display: inline-block;
-}	
+	box-sizing: border-box;
+	padding: 1rem;
+	margin: 1rem;
+	background-color: rgb(194, 33, 33);
+	width: calc((60%) - 8rem);
+	float: left
+}
 
 
 .texto4 {
-background:black;
-		}		
+	display: inline-block;
+}
+
+.texto4_1 {
+	width: 50%;
+	float: left;
+	background-color: blueviolet;
+}
+
+.texto4_2 {
+	width: 50%;
+	float: right;
+}
+
+
+
+
+
 
 .texto5 {
-background:black;
-		}
+	background: black;
+}
 
 .texto6 {
-background:black;
-		}
+	background: black;
+}
 
 .texto7 {
-background:black;
-		}
+	background: black;
+}
 
 .texto8 {
-background:black;
-		}
-			
-
-
-				
-
+	background: black;
+}
