@@ -20,24 +20,29 @@
 
 h1 {
 	text-align: center;
-	font-size: 70px;
-	color: white;
+	font-size: 100px;
+	color: green;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h2 {
 	text-align: left;
-	font-size: 30px;
+	font-size: 35px;
 	color: white;
-	font-size: x-large;
 	color: red;
+
+	padding: 1rem;
+	margin: 1rem;
+	width: calc((38%) - 2rem);
 }
 
 
-
 p {
-	color: white;
+	color:azure;
 	font-size: 25px;
 	font-family: Arial, Helvetica, sans-serif text-indent: 3ch;
+	margin-top: 15px;
+	margin-bottom: 15px
 }
 
 #frase {
@@ -56,6 +61,10 @@ em strong {
 
 .texto {
 	background: black;
+	padding: 1rem;
+	margin: 1rem;
+	width: 100%
+	text-align: center;
 }
 
 .texto2 {
@@ -63,63 +72,122 @@ em strong {
 }
 
 .texto3 {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
 	display: inline-block;
+	width: 100%;
+	background-color:black
 }
 
-.box {
+.texto3a {
 	box-sizing: border-box;
 	padding: 1rem;
 	margin: 1rem;
-	background-color: dimgray;
 	width: calc((40%) - 2rem);
 	float: left
 }
 
-.box2 {
-	box-sizing: border-box;
-	padding: 1rem;
-	margin: 1rem;
-	background-color: rgb(194, 33, 33);
-	width: calc((60%) - 8rem);
-	float: left
+.texto3b {
+	width: 50%;
+	float: right;
 }
 
 
 .texto4 {
 	display: inline-block;
+	width: 100%;
+	background-color: darkslateblue
 }
 
-.texto4_1 {
+.texto4a {
 	width: 50%;
 	float: left;
-	background-color: blueviolet;
+	padding: 1rem;
+	margin: 1rem;
+	width: calc((38%) - 2rem);
 }
 
-.texto4_2 {
+.texto4b {
+	width: 50%;
+	float: right;
+}
+
+
+.texto5 {
+	display: inline-block;
+	width: 100%;
+	background-color: darkslategray
+}
+
+.texto5a {
+	width: 50%;
+	float: left;
+	padding: 1rem;
+	margin: 1rem;
+	width: calc((38%) - 2rem);
+}
+
+.texto5b {
+	width: 50%;
+	float: right;
+}
+
+
+.texto6 {
+	display: inline-block;
+	width: 100%;
+	background-color: black
+}
+
+.texto6a {
+	width: 50%;
+	float: left;
+	padding: 1rem;
+	margin: 1rem;
+	width: calc((38%) - 2rem);
+}
+
+.texto6b {
 	width: 50%;
 	float: right;
 }
 
 
 
-
-
-
-.texto5 {
-	background: black;
-}
-
-.texto6 {
-	background: black;
-}
-
 .texto7 {
-	background: black;
+	background-color: cadetblue;
+	display: inline-block;
+	width: 100%;
+}
+
+.texto7a {
+	width: 50%;
+	float: left;
+	padding: 1rem;
+	margin: 1rem;
+	width: calc((38%) - 2rem);
+}
+
+.texto7b {
+	width: 50%;
+	float: right;
 }
 
 .texto8 {
-	background: black;
+	background-color: rgb(147, 91, 33);
+	display: inline-block;
+	width: 100%;
+}
+
+.texto8a {
+	width: 50%;
+	float: left;
+	padding: 1rem;
+	margin: 1rem;
+	width: calc((38%) - 2rem);
+}
+
+.texto8b {
+	width: 50%;
+	float: right;
+
+
 }
